@@ -35,9 +35,9 @@ export const LoginForm = () => {
           placeholder="Enter a password"
           className="flex items-center w-full px-5 py-3 mr-2   text-sm font-medium outline-none focus:bg-grey-400 mb-4 placeholder:text-grey-700 bg-white text-black  rounded-md "
         />
-        <button className="bg-black w-full px-6 py-5 mb-5 text-sm font-bold leading-none text-white md:w-96 rounded-md transition duration-300 hover:bg-slate-800 focus:ring-4 focus:ring-blue-100">
+        <Link href={"/home"} className="bg-black w-full px-6 py-5 mb-5 text-sm font-bold leading-none text-white md:w-96 rounded-md transition duration-300 hover:bg-slate-800 focus:ring-4 focus:ring-blue-100">
           Sign In
-        </button>
+        </Link>
         <div className="flex justify-around">
           <Link
             href="/forgetPassword"
